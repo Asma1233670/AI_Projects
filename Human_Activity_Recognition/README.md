@@ -15,6 +15,7 @@ The experiments involved **30 volunteers** aged 19-48 years. Each volunteer perf
 - LAYING
 
 **Data Distribution**
+
 <img width="859" height="547" alt="Image" src="https://github.com/user-attachments/assets/a709e514-bd2e-4984-a1f5-81c2d05e7803" />
 
 **Device and Data Collection**:
@@ -64,6 +65,7 @@ model= Sequential([
 
 ### Model Training
 **Visualization of loss by epoch**
+
 <img width="576" height="455" alt="Image" src="https://github.com/user-attachments/assets/d9b16d45-a86d-4af7-ab51-d07325fb2ac0" />
 
 As you can see, the model is training well, with both loss steadily decreasing and accuracy increasing over the epochs. This indicates that the model is successfully learning to recognize the activity patterns from the accelerometer and gyroscope data.
@@ -86,6 +88,7 @@ model_2=Sequential([
 
 ### Model training
 **Visualization of loss by epoch**
+
 <img width="576" height="455" alt="Image" src="https://github.com/user-attachments/assets/ab435549-f810-4ffe-9438-30b7f4635d01" />
 
 The training process for the FCN appears to be more stable, with less noise compared to the GRU-based model that was trained on raw sensor data.
